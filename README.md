@@ -6,8 +6,8 @@ After that, follow the instructions below.
 First, you will need a channel specifically for game status.
 ![Channel](/index.png)
 Second, you will have to edit the Places array in the bot.js script to show the places you want to track.
-![Settings](/Screenshot_1.png)
-In the settings you can also customize the embed message, as well as the interval time for automatic updates. It is **highly** recommended you do not go below 8 to prevent being rate-limited.
+![Settings](/Screenshot_2.png)
+In the settings you can also customize the embed message, as well as the interval time for automatic updates. It is **highly** recommended you do not go below 8 to prevent being rate-limited. You can also customize the guild ID and the channel ID from within.
 # Required Materials
 Discord.js
 > npm i discord.js
