@@ -4,7 +4,7 @@ To start, you will need a bot which can be googled on how to setup.
 After that, follow the instructions below.
 # Instructions
 First, you will need a channel specifically for game status.
-![alt text](https://prnt.sc/xe6qfo)
+![Channel](/index.png)
 # Required Materials
 Discord.js
 > npm i discord.js
