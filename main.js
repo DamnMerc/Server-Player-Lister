@@ -162,6 +162,7 @@ client.on('ready', async () => {
     .setTitle(Settings.Embed.EmbedTitle)
     .setDescription(Settings.Embed.EmbedDesc)
     .setTimestamp()
+    .setFooter('Created by LordMerc')
     Results.forEach(result => {
       if (result.Players > 0) {
         embed.addField(result.Name, `${result.Players} players playing with ${result.Servers} servers`, false)
@@ -190,6 +191,7 @@ async function update(message) {
   .setTitle(Settings.Embed.EmbedTitle)
   .setDescription(Settings.Embed.EmbedDesc)
   .setTimestamp()
+  .setFooter('Created by LordMerc')
   Results.forEach(result => {
     if (result.Players > 0) {
       embed.addField(result.Name, `${result.Players} players playing with ${result.Servers} servers`, false)
@@ -216,6 +218,7 @@ async function update(message) {
     .setTitle(Settings.Embed.EmbedTitle)
     .setDescription(Settings.Embed.EmbedDesc)
     .setTimestamp()
+    .setFooter('Created by LordMerc')
     Results.forEach(result => {
       if (result.Players > 0) {
         embed.addField(result.Name, `${result.Players} players playing with ${result.Servers} servers`, false)
